@@ -1,0 +1,84 @@
+.tajawal-regular {
+    font-family: "Tajawal", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  a {
+    text-decoration: none !important;
+  }
+.header h3 {
+    color: #43121d;
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+.modal-btn .btn, .modal .btn_send, .modal .btn_close  {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 11px 28px;
+  border: none;
+  border-radius: 0px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+}
+.modal-btn .btn, 
+.modal .btn_send {
+  background: #a82d49 !important;
+  border: 3px solid #a82d49 !important;
+}
+.modal-btn .btn:hover, 
+.modal-btn .btn:active, 
+.modal-btn .btn:focus,
+.modal .btn_send:hover, 
+.modal .btn_send:active, 
+.modal .btn_send:focus {
+  background: #fff !important;
+  color: #a82d49 !important;
+  
+}
+.modal .btn_close {
+  background: #171717 !important;
+  border: 3px solid #171717 !important;
+}
+.modal .btn_close:hover, 
+.modal .btn_close:active, 
+.modal .btn_close:focus {
+  background: #fff !important;
+  color: #171717 !important;
+  
+}
+.modal .form-control, .modal .input-group-text, .modal .form-check-input {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+.modal .form-control, .modal .input-group-text {
+  padding: 0.75rem .75rem !important;
+}
+.modal .form-check-input {
+  width: 1.3em;
+  height: 1.3em;
+  margin-right: 8px;
+}
+

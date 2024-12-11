@@ -1,0 +1,67 @@
+header {
+    background-image: url("../../../assets/3.jpg");
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+    height: auto;
+    overflow: hidden;
+    padding: 100px 0;
+    margin-top: 0;
+}
+header .row {
+    margin: 60px 0;
+}
+header h2 {
+    color: #a82d49;
+    font-size: 55px;
+    line-height: 60px;
+    font-family: "Tajawal", serif;
+    font-weight: bold;
+    width: 80%;
+}
+header p {
+    color: #333;
+    font-family: "Tajawal", serif;
+    margin: 15px 0;
+}
+header button, header a.btn {
+    width: 150px;
+    height: 50px;
+    background-color: #a82d49;
+    text-align: center;
+    color: #fff;
+    border: 3px solid #a82d49;
+    margin: 20px 10px 20px 0;
+    font-weight: bold;
+    transition: all .3s ease-in !important;
+    -webkit-transition: all .3s ease-in !important;
+    -moz-transition: all .3s ease-in !important;
+    -ms-transition: all .3s ease-in !important;
+    -o-transition: all .3s ease-in !important;
+}
+header a.btn {
+    text-decoration: none !important;
+    font-size: 16px !important;
+    border-radius: 0% !important;
+    -webkit-border-radius: 0% !important;
+    -moz-border-radius: 0% !important;
+    -ms-border-radius: 0% !important;
+    -o-border-radius: 0% !important;
+}
+header a.btn, header button:hover {
+    color: #000;
+    background-color: #ffffff;
+    border: 3px solid #fff;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.19);
+}
+header a.btn:hover {
+    color: #fff;
+    background-color: #a82d49;
+    border: 3px solid #a82d49;
+}
+@media (max-width: 786px) {
+    header {
+        padding: 0px 0;
+    }    
+}

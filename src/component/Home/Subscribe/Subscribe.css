@@ -1,0 +1,70 @@
+.subscribe {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.subscribe h1 {
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1px;
+}
+
+.subscribe p {
+    color: #555;
+    text-align: center;
+    width: 100%;
+    letter-spacing: 0.2px;
+    padding: 25px 0 15px;
+}
+
+.subscribe .intro-subscribe {
+    width: 55%;
+    margin: 0px auto;
+}
+@media (max-width: 786px) {
+    .subscribe .intro-subscribe {
+        width: 95%;
+    }
+}
+.subscribe .intro-subscribe input {
+    height: 50px;
+    padding: 0 20px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    width: 100%;
+    border: none;
+    border-radius: 0px;
+    background: transparent;
+    border: 3px solid #e5e5e5;
+    color: #000;
+    font-weight: 700;
+}
+
+.subscribe .intro-subscribe button {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    font-size: 16px;
+    height: 50px;
+    font-weight: 600;
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+@media (max-width: 786px) {
+    .subscribe {
+        padding: 50px 0;
+    }
+    .subscribe .intro-subscribe input {
+        margin-bottom: 10px;
+    }
+}

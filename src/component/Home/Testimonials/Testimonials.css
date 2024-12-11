@@ -1,0 +1,12 @@
+.testimonials {
+    background-color: #a82d49;
+    padding: 100px 0;
+}
+.testimonials h3 {
+    color: #fff !important;
+}
+@media (max-width: 786px) {
+    .testimonials {
+        padding: 50px 0;
+    }
+}

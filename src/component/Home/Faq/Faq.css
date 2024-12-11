@@ -1,0 +1,38 @@
+.faq-main {
+    padding: 100px  0;
+}
+.faq {
+    margin: 20px 0 20px 30px;
+}
+.faq h4 span {
+    color: #f98169;
+    font-size: 28px;
+    font-weight: 300;
+    vertical-align: middle;
+}
+
+.faq h4 {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+.faq p {
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+@media (max-width: 786px) {
+    .faq-main {
+        padding: 50px 0;
+    }
+    .faq {
+        margin: 15px 20px 15px 15px;
+    }
+    .parallax h4 {
+        font-size: 25px;
+    }
+}

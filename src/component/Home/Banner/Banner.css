@@ -1,0 +1,32 @@
+.banner {
+    background-image: url(./../../../assets/explore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 450px;
+    padding-top: 50px;
+    border-radius: 10px;
+}
+.banner h1 {
+    color: #a82d49;
+    padding-top: 40px;
+}
+.banner p {
+    color: #555;
+    padding-top: 20px;
+}
+.banner a, .banner a:hover, .banner a:focus, .intro-video-pop {
+    outline: 0;
+    text-decoration: none;
+    transition: .4s;
+    color: #43121d;
+}
+.intro-video-pop {
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (max-width: 786px) {
+    .banner {
+        padding-top: 20px;
+    }
+}

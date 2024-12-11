@@ -1,0 +1,32 @@
+.counts {
+    background-color: #a82d49;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+.counts svg {
+    font-size: 40px;
+    margin: 0 auto 10px;
+    display: table;
+}
+.counts svg path {
+    fill: #fff;
+}
+.counts p {
+    color: #fff;
+    font-size: 40px;
+    margin: 0 0 6px;
+    font-family: "Tajawal", serif;
+    font-weight: 700;
+}
+
+.counts h2 {
+    color: #fff;
+    font-size: 12px;
+    font-family: "Tajawal", serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
